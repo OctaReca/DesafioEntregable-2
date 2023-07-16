@@ -97,10 +97,10 @@ class ProductManager {
 }
 
 // testing del entregable
-const productManager = new ProductManager('./productos.txt');
+const productManager = new ProductManager('./productos.json');
 
 // getProducts - Debe devolver un arreglo vacío
-// console.log(productManager.getProducts()); // []
+console.log(productManager.getProducts()); // []
 
 // // addProduct - Agregar un nuevo producto
 // productManager.addProduct({
@@ -139,4 +139,4 @@ const productManager = new ProductManager('./productos.txt');
 // productManager.deleteProduct(productId);
 
 // getProducts - El producto eliminado ya no debe aparecer
-console.log(ProductManager.getProducts());
+// console.log(ProductManager.getProducts());
